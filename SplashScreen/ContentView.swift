@@ -9,8 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            Color.black
+                .ignoresSafeArea()
+            Text("Home screen of LCO app")
+                .foregroundColor(.white)
+                .bold()
+                .font(.system(size: 30))
+                .padding()
+        }
     }
 }
 

@@ -11,6 +11,7 @@
 		32D4846428DCE70C002B5375 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D4846328DCE70C002B5375 /* ContentView.swift */; };
 		32D4846628DCE70E002B5375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32D4846528DCE70E002B5375 /* Assets.xcassets */; };
 		32D4846928DCE70E002B5375 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32D4846828DCE70E002B5375 /* Preview Assets.xcassets */; };
+		32D4847028DCE7F7002B5375 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D4846F28DCE7F7002B5375 /* SplashScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		32D4846328DCE70C002B5375 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		32D4846528DCE70E002B5375 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32D4846828DCE70E002B5375 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		32D4846F28DCE7F7002B5375 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,9 @@
 		32D4846028DCE70C002B5375 /* SplashScreen */ = {
 			isa = PBXGroup;
 			children = (
-				32D4846128DCE70C002B5375 /* SplashScreenApp.swift */,
+				32D4846F28DCE7F7002B5375 /* SplashScreenView.swift */,
 				32D4846328DCE70C002B5375 /* ContentView.swift */,
+				32D4846128DCE70C002B5375 /* SplashScreenApp.swift */,
 				32D4846528DCE70E002B5375 /* Assets.xcassets */,
 				32D4846728DCE70E002B5375 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				32D4846428DCE70C002B5375 /* ContentView.swift in Sources */,
 				32D4846228DCE70C002B5375 /* SplashScreenApp.swift in Sources */,
+				32D4847028DCE7F7002B5375 /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
